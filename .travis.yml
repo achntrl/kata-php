@@ -6,4 +6,3 @@ php:
   - "5.3"
   - "5.2"
 script: tree .
-script: ./vendor/phpunit/phpunit/phpunit
