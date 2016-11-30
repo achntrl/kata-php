@@ -7,14 +7,14 @@ namespace Kata\StringCalculator {
 
     class StringCalculatorTest extends TestCase
     {
-        public function xtestEmptyString()
+        public function testEmptyString()
         {
             $a = new StringCalculator();
 
             $this->assertEquals(0, $a->Add(""));
         }
 
-        public function xtestOneNumber()
+        public function testOneNumber()
         {
             $a = new StringCalculator();
 
@@ -23,7 +23,7 @@ namespace Kata\StringCalculator {
             $this->assertEquals(10, $a->Add("10"));
         }
 
-        public function xtestTwoNumbers()
+        public function testTwoNumbers()
         {
             $a = new StringCalculator();
 
@@ -34,7 +34,7 @@ namespace Kata\StringCalculator {
             $this->assertEquals(0, $a->add(","));
         }
 
-        public function xtestArbitraryAmountOfNumbers()
+        public function testArbitraryAmountOfNumbers()
         {
             $a = new StringCalculator();
 
