@@ -5,4 +5,4 @@ php:
   - "5.4"
   - "5.3"
   - "5.2"
-script: vendor/phpunit/phpunit/phpunit
+script: ./vendor/phpunit/phpunit/phpunit
